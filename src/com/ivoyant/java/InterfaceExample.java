@@ -1,3 +1,5 @@
+package com.ivoyant.java;
+
 interface Switch{
     abstract void switchon();
     abstract void switchoff();
@@ -5,10 +7,10 @@ interface Switch{
 class Light implements Switch{
     @Override
     public void switchon(){
-        System.out.println("Light is on");
+        System.out.println("com.ivoyant.java.Light is on");
     }
     public void switchoff(){
-        System.out.println("Light is off");
+        System.out.println("com.ivoyant.java.Light is off");
     }
 
 }
@@ -16,10 +18,10 @@ class Light implements Switch{
 class Bulb implements Switch{
     public void switchon(){
 
-        System.out.println("Bulb is on");
+        System.out.println("com.ivoyant.java.Bulb is on");
     }
     public void switchoff(){
-        System.out.println("Bulb is off");
+        System.out.println("com.ivoyant.java.Bulb is off");
     }
 }
 public class InterfaceExample {

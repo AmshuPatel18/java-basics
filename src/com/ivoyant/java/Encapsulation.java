@@ -1,4 +1,6 @@
- class Example {
+package com.ivoyant.java;
+
+class Example {
      private String name;
      private int age;
 
@@ -28,6 +30,4 @@
            System.out.println("Name: " + e.getName());
        }
    }
-
-
 
