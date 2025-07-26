@@ -3,6 +3,8 @@ package com.ivoyant.java;
 import java.io.*;
 
 class Demo implements Serializable {
+    @Serial
+    private static final long serialVersionUID =1L;
     private String name;
     private int age;
 
