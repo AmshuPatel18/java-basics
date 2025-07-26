@@ -10,7 +10,7 @@ public class BufferedInputStreamExample {
             FileInputStream fis = new FileInputStream("C://Users//user//OneDrive//Desktop//BIS.txt");
             BufferedInputStream bis = new BufferedInputStream(fis);
             int c;
-            while ((c = fis.read()) != -1) {
+            while ((c = bis.read()) != -1) {
                 System.out.print((char) c);
             }
             bis.close();
