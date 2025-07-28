@@ -39,7 +39,7 @@ class Demo {
         }
     }
 }
-public class practise {
+public class DeadLockExample {
     public static void main(String[] args) {
         Demo d=new Demo();
         Thread t1= new Thread(()->d.methodA());
