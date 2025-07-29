@@ -11,7 +11,7 @@ class Demo {
                 Thread.sleep(2000);
             } catch (InterruptedException e) {
                 System.out.println(e.getMessage());
-                ;
+
             }
 
             synchronized (lock2) {
