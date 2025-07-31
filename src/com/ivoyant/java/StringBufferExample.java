@@ -17,7 +17,7 @@ class Testerr implements Runnable{
     public void run(){
         for(int i=1;i<=5;i++){
             System.out.println(Thread.currentThread().getName()+"its running:  "+i);
-            sb.append(data).append("   ->");
+            sb.append(data).append("  ->");
         }
 
 
