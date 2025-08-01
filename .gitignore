@@ -1,7 +1,14 @@
 ### IntelliJ IDEA ###
+.idea/
+*.iml
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+
+# IntelliJ-specific internal files
+.shelf/
+workspace.xml
+mavenHomeManager.xml
 
 ### Eclipse ###
 .apt_generated
@@ -27,3 +34,19 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+### Java ###
+*.class
+*.log
+*.tmp
+*.bak
+
+### Build Files ###
+*.jar
+*.war
+*.ear
